@@ -17,7 +17,7 @@ const Gallery = () => {
         >
           Photo
         </h1>
-        <h1 class="text-5xl  font-bold">Gallery</h1>
+        <h1 class="text-5xl  font-bold">Galleryii</h1>
 
         <div className="gallery-grid mt-[40px] grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
           {/* Replace with your actual image URLs */}
