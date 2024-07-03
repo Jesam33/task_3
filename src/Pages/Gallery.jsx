@@ -24,7 +24,7 @@ const Gallery = () => {
           {Array.from({ length: 10 }).map((_, index) => (
             <img
               key={index}
-              src={`src/assets/Rectangle ${index + 22}.png`}
+              src={`../src/assets/Rectangle ${index + 22}.png`}
               alt={`Image ${index + 1}`}
               className="w-full h-auto"
             />
