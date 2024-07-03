@@ -41,7 +41,7 @@ const App_Body = () => {
 
         {/* Right Column */}
         <div className="righttDiv lg:relative w-full bg-slate-500 col-span-2">
-          <img src="/src/assets/hero.png" alt="Building" className="inset-0 w-full h-full object-cover" style={{ maxHeight: "600px" }} />
+          <img src="/src/assets/hero.png" alt="Building"/>
           <button className="absolute bg-white bottom-0 left-0 text-[#333333] md:text-[18px] font-[200] sm:px-6 md:px-6 sm:py-2 lg:px-12 lg:py-4 px-12">
             VIEW PROJECT
             <span>
