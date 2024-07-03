@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div className="header bg-red-500 md:bg-transparent w-full flex justify-between items-center py-3">
       <div className="logo">
-        <img src="src/assets/logo.png" alt="logo" />
+        <img src="..\src\assets\logo.png" alt="logo" />
       </div>
       <div className="nav-items bg-red">
         {/* Mobile Menu Toggle Button */}
