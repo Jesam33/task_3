@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+li a {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.swiperCount p{
+  font-family: "Roboto", sans-serif !important;
+}
+.active{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 2px !important;
+}
