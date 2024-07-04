@@ -21,8 +21,8 @@ const App_Body = () => {
       <Header />
       <div className="container relative lg:flex lg:flex-row lg:items-center sm:flex-col-reverse md:relative mx-auto mt-4 grid grid-cols-2 gap-[10rem]">
         {/* Left Column */}
-        <div className="leftDiv absolute bg-[#120e16c2] lg:bg-transparent ml-[42px] mt-2 md:ml-[250px] lg:ml-6 md:mt-28 lg:mt-0 z-10 lg:relative sm:absolute md:mt-30 md:z-50 col-span-2">
-          <div className="sm:h-auto px-11 py-2 lg:px-0 md:h-full sm:items-center md:items-center lg:items-start flex flex-col justify-center">
+        <div className="leftDiv absolute w-full md:w-full lg:w-fit h-full   bg-[#120e16c2] lg:bg-transparent ml-[px]  lg:ml-6  lg:mt-0 z-10 lg:relative sm:absolute md:mt-30 md:z-50 col-span-2">
+          <div className="h-full md:h-full lg:h-fit  items-center px-11 py-2 lg:px-0 md:h-full sm:items-center md:items-center lg:items-start flex flex-col justify-center">
             <h1 className="text-3xl md:text-5xl font-thin mt-0 md:mt-10 text-gray-400 mb-4" style={{ letterSpacing: "2px", lineHeight: "1" }}>
               PROJECT
             </h1>
@@ -49,7 +49,7 @@ const App_Body = () => {
         {/* Right Column */}
         <div className="righttDiv lg:relative w-full bg-slate-500 col-span-2">
           <img src={heroImg} alt="Building" className="inset-0 w-full h-full object-cover" style={{ maxHeight: "600px" }} />
-          <button className="absolute bg-white bottom-0 left-0 text-[#333333] md:text-[18px] font-[200] sm:px-6 md:px-6 sm:py-2 lg:px-12 lg:py-4 px-12">
+          <button className="absolute bg-white  bottom-0 left-0 text-[#333333] md:text-[18px] font-[200] sm:px-6 md:px-6 sm:py-2 lg:px-12 lg:py-4 px-12">
             VIEW PROJECT
             <span>
               <ArrowForwardIcon />
