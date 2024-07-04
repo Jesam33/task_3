@@ -1,5 +1,6 @@
 import React from "react";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import Img12 from "../assets/img/image 12.png"
 
 const Contact = () => {
   return (
@@ -40,7 +41,7 @@ const Contact = () => {
           </div>
 
           <div className="w-1/1">
-            <img src="src/assets/image 12.png" alt="" width={870} />
+            <img src={Img12}  alt="" width={870} />
           </div>
         </div>
 

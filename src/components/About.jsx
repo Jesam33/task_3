@@ -1,6 +1,10 @@
 import React from 'react';
-import ImageMasonry from './ImageMasonry';
+// import ImageMasonry from './ImageMasonry';
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import rec8 from "../assets/img/Rectangle_8.png";
+// import rec10 from "../assets/img/Rectangle_10.png"
+import rect9 from "../assets/img/Rectangle_9.png"
+import rect10 from "../assets/img/Rectangle_10.png"
 
 const About = () => {
   return (
@@ -9,14 +13,14 @@ const About = () => {
         {/* Left Column */}
         <div className="w-full grid  grid-cols-1 md:grid-cols-2 gap-4 sm:w-1/1  md:w-1/1 lg:w-1/2">
           <div className="div">
-          <img src="src/assets/Rectangle_8.png" alt="" />
+          <img src={rec8} alt="" />
           <div className="div mt-4">
 
-          <img src="src/assets/Rectangle _10.png" alt="" />
+          <img src={rect10} alt="" />
           </div>
         </div>
         <div>
-          <img src="src/assets/Rectangle_9.png" alt="" />
+          <img src={rect9} alt="" />
         </div>
         </div>
       

@@ -3,6 +3,9 @@ import Button from "../components/Button";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Footer from "../components/Footer";
+import Img30 from "../assets/img/image 30.png"
+import Img32 from "../assets/img/image 32.png"
+import Img33 from "../assets/img/image 33.png"
 
 const Projects = () => {
   return (
@@ -21,7 +24,7 @@ const Projects = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-[30px]">
             <div className="div1">
-              <img src="src/assets/image 30.png" width={600} alt="" />
+              <img src={Img30} width={600} alt="" />
             </div>
             <div className="div2 bg-[#FBFBFB] px-4 py-0">
               <h2 className="text-4xl text-[#BDBDBD] font-[200] mt-3 md:mt-3 lg:mt-7">Sample Project</h2>
@@ -42,7 +45,7 @@ const Projects = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-[30px]">
             <div className="div1">
-              <img src="src/assets/image 32.png" width={600} alt="" />
+              <img src={Img32} width={600} alt="" />
             </div>
             <div className="div2 bg-[#FBFBFB] px-4 py-0">
               <h2 className="text-4xl text-[#BDBDBD] font-[200] mt-3 md:mt-3 lg:mt-7">Sample Project</h2>
@@ -64,7 +67,7 @@ const Projects = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 mt-[30px]">
             <div className="div1">
-              <img src="src/assets/image 33.png" width={600} alt="" />
+              <img src={Img33} width={600} alt="" />
             </div>
             <div className="div2 bg-[#FBFBFB] px-4 py-0">
               <h2 className="text-4xl text-[#BDBDBD] font-[200] mt-3 md:mt-3 lg:mt-7">Sample Project</h2>

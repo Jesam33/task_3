@@ -6,13 +6,14 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PlaceIcon from '@mui/icons-material/Place';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
+import footlogo from "../assets/img/Group 11 1.png"
 
 const Footer = () => {
   return (
     <>
     <div className='grid grid-cols-1 md:grid-cols-4  py-9 px-11 bg-[#2C2C2C] text-[#fff]'>
       <div className="logo block">
-      <img src="/src/assets/Group 11 1.png" width={100} alt="logo" />
+      <img src={footlogo} width={100} alt="logo" />
       </div>
       <div className="information">
         <h2 className='mb-4 mt-8 md:mt-0 text-[18px] font-[400]'>Informatiom</h2>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import DehazeIcon from '@mui/icons-material/Dehaze';
+import logo from "../assets/img/logo.png"
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,9 +15,9 @@ const Header = () => {
   };
 
   return (
-    <div className="header bg-red-500 md:bg-transparent w-full flex justify-between items-center py-3">
+    <div className="header  md:bg-transparent w-full flex justify-between items-center py-3">
       <div className="logo">
-        <img src="../src/assets/logo.jpg" alt="logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div className="nav-items bg-red">
         {/* Mobile Menu Toggle Button */}

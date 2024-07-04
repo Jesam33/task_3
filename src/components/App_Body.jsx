@@ -7,11 +7,17 @@ import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import heroImg from "../assets/img/hero.png"
+import Img15 from "../assets/img/image 15.png"
+import Img16 from "../assets/img/image 16.png"
+import Img17 from "../assets/img/image 17.png"
+import Img18 from "../assets/img/image 18.png"
+import rec12 from "../assets/img/Rectangle 12.png"
+
 
 const App_Body = () => {
   return (
     <>
-    <div className="overflow-x-hidden px-4">
+    <div className="overflow-x-hidden px-4 md:px-8">
       <Header />
       <div className="container relative lg:flex lg:flex-row lg:items-center sm:flex-col-reverse md:relative mx-auto mt-4 grid grid-cols-2 gap-[10rem]">
         {/* Left Column */}
@@ -95,7 +101,7 @@ const App_Body = () => {
         </h1>
         <div className="w-full  sm-block lg:flex gap-4">
           <div className="relative w-full mb-[20px] md:mb-[20px] lg:mb-0">
-            <img src="src\assets\Rectangle 12.png" alt="" className="w-full" />
+            <img src={rec12} alt="" className="w-full" />
             <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
             <div className="absolute top-0 left-0 p-9 w-full h-full items-center z-10">
               <p className="text-white text-[25px] md:text-[50px] font-[900] z-20" style={{ lineHeight: "1" }}>
@@ -109,12 +115,12 @@ const App_Body = () => {
               </p>
             </div>
           </div>
-          <img src="src/assets/image 15.png" alt="" className="w-full" />
+          <img src={Img15} alt="" className="w-full" />
         </div>
         <div className="div mt-4 grid grid-cols-1 sm:grid-cols-1 md:grid lg:flex gap-6">
-          <img src="src/assets/image 16.png" alt="" className="w-full" />
-          <img src="src/assets/image 17.png" alt="" className="w-full" />
-          <img src="src/assets/image 18.png" alt="" className="w-full" />
+          <img src={Img16}  alt="" className="w-full" />
+          <img src={Img17}  alt="" className="w-full" />
+          <img src={Img18}  alt="" className="w-full" />
         </div>
         <div className="absolute right-0 bg-gray-900 mt-9">
           <button className="bg-[#333333] p-4 py-3 ">
