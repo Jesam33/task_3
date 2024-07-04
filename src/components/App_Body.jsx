@@ -6,6 +6,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import heroImg from "../assets/img/hero.png"
 
 const App_Body = () => {
   return (
@@ -41,7 +42,7 @@ const App_Body = () => {
 
         {/* Right Column */}
         <div className="righttDiv lg:relative w-full bg-slate-500 col-span-2">
-          <img src="../assets/img/hero.png" alt="Building" className="inset-0 w-full h-full object-cover" style={{ maxHeight: "600px" }} />
+          <img src={heroImg} alt="Building" className="inset-0 w-full h-full object-cover" style={{ maxHeight: "600px" }} />
           <button className="absolute bg-white bottom-0 left-0 text-[#333333] md:text-[18px] font-[200] sm:px-6 md:px-6 sm:py-2 lg:px-12 lg:py-4 px-12">
             VIEW PROJECT
             <span>
